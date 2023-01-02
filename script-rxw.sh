@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Para evitar cobranças na sua conta do Google Cloud pelos recursos usados nesta página, vamos excluir o cluster qsdev."
+echo "Para evitar cobranças pelos recursos usados nesta, o ideal é excluir os cluster."
+echo "excluindo qsdev"
 
 gcloud container clusters delete quickstart-cluster-qsdev --region=us-central1 --project=animated-alloy-369522
 
